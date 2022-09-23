@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.x{
+    
+    background:url(images.jfif),rgb(240, 128, 204);
+    background-size:cover;
+    height:700PX;
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+}

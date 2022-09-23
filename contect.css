@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+   
+    }
+   
+body{
+    display:flex;
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    
+    
+}
+.left{
+    height:520px;
+    width:450px;
+    background:blue;
+    border-radius:20px;
+    color:white;
+    padding:20px;
+    font-size:20px;
+    position:relative;
+    overflow:hidden !important;
+    
+
+   
+}
+.main{
+  width: 220px;
+  height: 200px;
+  position:absolute;
+  left: 422px;
+  top:431px;
+  background:pink;
+  border-radius:130px 0px 19px 0px;
+
+    
+     
+   
+  
+   
+}
+.right{
+    height:130px;
+    width:130px;  
+    background:blueviolet;
+    border-radius:100px;
+    position:absolute;
+   left:450px;
+   bottom:230px;
+ 
+  
+}
+
+
+
+
+
+
+
+ 
+.container{
+    max-width: 700px;
+    width:100%;
+    background:whitesmoke;
+    padding:25px 30px;
+    border-radius:5px;
+    justify-content:center;
+    align-items:center;
+    
+
+}
+.titel{
+    font-size:20px;
+    text-align:center;
+}
+.container .title{
+    font-weight:500;
+    position:relative;
+    margin:auto;
+}
+.container .titel::before{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:0;
+    height:3px;
+    width:30px;
+    background:#9b59b6;
+}
+.container form .user-details{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+ form .user-details .input-box{
+    margin-bottom:20px;
+    margin:20px 0 12px 0;
+   width:calc(100%/2 - 20px);
+}
+.user-details .input-box details{
+   display:block;
+   font-weight:500;
+   margin-bottom:5px;
+ }
+.user-details .input-box input{
+    height:45px;
+    width:100%;
+    outline:none;
+    border-radius:5px;
+    border:1px solid #ccc;
+    padding-left:15px;font-size:16px;
+    font-size:16px;
+    border-bottom-width:2px;
+    transition:all 0.3s ease;
+ }
+ .user-details .input-box input:focus,
+ .user-details .input-box input:valid{
+    border-color:#3b59b6;
+ }
+ form .course-details .course-titel{
+    font-size: 20px;
+    font-weight:500;
+ }
+ form .course-details .category{
+    display:flex;
+    width:80%;
+    width:80%;
+    margin:14px 0;
+    justify-content:space-between;
+    
+ }
+ .course-details .category label{
+
+ }
+ .course-details .category .dot{
+    height: 18px;
+    width:18px;
+    border-radius:50%;
+    margin-right:10px;
+    border:5px solid transparent;
+}
+form .button{
+    height:45px;
+    margin:45px 0;
+}
+form .button input{
+    height:100%;
+    width:100%;
+    outline:none;
+    background:blue;
+}

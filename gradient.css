@@ -1,0 +1,7 @@
+.box{
+    height:200px;
+    width:200px;
+    background:radial-gradient(pink,yellow,green,blue,black,orange,green);
+    margin:auto;
+    padding:25px;
+}

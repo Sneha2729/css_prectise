@@ -1,0 +1,47 @@
+<html>
+<head>
+    <titel></titel>
+    <style type="text/css">
+        *{box-sizing:border-box;}
+        .main{
+            height:300px;
+            width:800px;
+            background:url(https://w3layouts.com/wp-content/uploads/2017/06/elite-shoppy.jpg );
+            background-size:120% 100%;
+            border:20px solid;
+            rgba(255,255,255,0.3);
+            background-origin:border-box;
+            padding:35px;
+            transition:0.5s;
+            background-position:-20px 0;
+
+        }
+        .innerdiv{
+            height:200px;
+            width:400px;
+            background:transparent;
+            border:8px solid white;
+            font-size:23px;
+            font-weight:bold;
+            font-family:cursive;
+            color:white;
+            text-align:center;
+            display:none;
+            margin:auto;
+        }
+        .main:hover .innerdiv{
+            display:block;
+        }
+      
+        .main:hover{
+            background-position:0 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        
+        <div class="innerDiv">new arrivals</div>
+    </div>
+</body>
+</html>
