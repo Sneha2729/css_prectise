@@ -1,0 +1,52 @@
+<html>
+<head>
+    <titel></titel>
+    <style type="text/css">
+        .header{
+            height:100px;
+            width:100%;
+            background:greenyellow;
+            display:flex;
+            flex-wrap:wrap;
+        }
+        .header .logo{
+            height:100px;
+            width:10%;
+            background-color:lightblue;
+        }
+        .header .cname{
+            height:100px;
+            width:90%;
+            background:lightcoral;
+        }
+        @media (max-width:1200px)
+        {
+            .header .logo{width:30%;}
+            .header .cname (width:70%;)
+        }
+        @media (max-width:900px)
+        {
+            .header .logo{width:80%;}
+            .header .cname (width:20%;)
+        }
+        @media (max-width:700px)
+        {
+            .header .logo{width:50%;}
+            .header .cname (width:50%;)
+        }
+        @media (max-width:500px)
+        {
+            
+           
+            .header .logo{width:100%;}
+            .header .cname (width:100%;)
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">part 1</div>
+        <div class="cname">part 2</div>
+    </div>
+</body>
+</html>
